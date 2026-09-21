@@ -37,49 +37,13 @@ The following diagram represents the architecture used for this project:
 
 ![Linux Cloud Infrastructure Architecture](architecture-diagram.jpg)
 
-### Architecture Flow
-
-```text
-User / Client
-     |
-  Internet
-     |
-Public IPv4
-     |
-AWS VPC
-     |
-Subnet
-     |
-EC2 Ubuntu Linux Server
-     |
-Security Group
-     |
-+----+----+
-|         |
-SSH       HTTP
-22        80
-|         |
-Linux     Nginx
-Access    Web Service
-Technologies & Tools
-Technology	Purpose
-AWS EC2	Linux server deployment
-AWS VPC	Cloud networking
-AWS Subnet	Network segmentation
-AWS Security Group	Instance-level network firewall
-Ubuntu Linux	Server operating system
-SSH	Secure remote administration
-Nginx	Web service
-UFW	Linux firewall
-GitHub	Project documentation
-
-
 Implementation
 1. Cloud Infrastructure
 - Deployed an Ubuntu Linux server using AWS EC2.
 - Used an AWS VPC and subnet for network connectivity.
 - Enabled a public IPv4 address for remote access and connectivity testing.
 - Configured an AWS Security Group to control inbound traffic.
+  
 2. Linux Administration
 Practical Linux tasks included:
 - Navigating the Linux filesystem
@@ -89,6 +53,7 @@ Practical Linux tasks included:
 - Monitoring processes
 - Checking and managing services
 - Generating SSH keys
+  
 3. Networking & Security
 The project included practical work with:
 - IP addressing
@@ -98,30 +63,37 @@ The project included practical work with:
 - AWS Security Group inbound rules
 - SSH access on TCP port 22
 - HTTP access on TCP port 80
+  
 4. Web Service Deployment
 Nginx was installed and configured on the Ubuntu server.
 The service was tested locally and through the server's public IPv4 address using a web browser.
+
 Connectivity Testing
 The deployed web service was tested using:
 HTTP
 Port: 80
 Service: Nginx
+
 SSH administration was tested using:
 SSH
 Port: 22
 Authentication: SSH Key
+
 The EC2 public IPv4 address is not permanently documented in this repository because public IP addresses can change when an EC2 instance is stopped and started.
 
 Documentation
 The complete practical documentation is available in:
 [Module-2-Report.pdf](./Module-2-Report.pdf)
+
 The report contains the detailed steps, configurations, commands, screenshots, and practical evidence for the completed module.
+
 Project Structure
-module-2-linux-networking-cloud/
+Codomax-Module-2-AWS-EC2-Linux-Nginx/
 │
 ├── README.md
 ├── Module-2-Report.pdf
 └── architecture-diagram.jpg
+
 Learning Outcomes
 Through this project, I gained practical experience with:
 - Linux server administration
@@ -134,10 +106,13 @@ Through this project, I gained practical experience with:
 - DNS and network troubleshooting
 - Web service deployment
 - Cloud infrastructure documentation
+  
 Training Program
 Codomax Digital Solutions
+
 Module 2 – Linux, Networking & Cloud Infrastructure
 Author: Sikandar Shah
+
 
 ### About the EC2 instance
 
