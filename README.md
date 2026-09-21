@@ -85,12 +85,14 @@ Authentication: SSH Key
 The EC2 public IPv4 address is not permanently documented in this repository because public IP addresses can change when an EC2 instance is stopped and started.
 
 Documentation
+
 The complete practical documentation is available in:
 [Module 2 Project Report.pdf](./Module 2 Project Report.pdf)
 
 The report contains the detailed steps, configurations, commands, screenshots, and practical evidence for the completed module.
 
 Project Structure
+
 Codomax-Module-2-AWS-EC2-Linux-Nginx/
 │
 ├── README.md
@@ -98,7 +100,9 @@ Codomax-Module-2-AWS-EC2-Linux-Nginx/
 └── architecture-diagram.jpg
 
 Learning Outcomes
+
 Through this project, I gained practical experience with:
+
 - Linux server administration
 - AWS EC2 deployment
 - Basic AWS networking
@@ -114,6 +118,7 @@ Training Program
 Codomax Digital Solutions
 
 Module 2 – Linux, Networking & Cloud Infrastructure
+
 Author: Sikandar Shah
 
 
