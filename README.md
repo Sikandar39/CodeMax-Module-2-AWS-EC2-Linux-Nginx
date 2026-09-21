@@ -134,6 +134,4 @@ Why:
 
 **Don't terminate it yet** if you still need to demonstrate the live webpage to someone. Stop it after your final testing and after you've uploaded the report to GitHub.
 
-Also, if you later start the instance again, the **public IPv4 may change**, so don't hard-code today's `3.110.105.185` into the README.
-
 Would you like me to tailor the README to your exact architecture diagram filename and the services you actually configured?
