@@ -69,12 +69,15 @@ Nginx was installed and configured on the Ubuntu server.
 The service was tested locally and through the server's public IPv4 address using a web browser.
 
 Connectivity Testing
+
 The deployed web service was tested using:
+
 HTTP
 Port: 80
 Service: Nginx
 
 SSH administration was tested using:
+
 SSH
 Port: 22
 Authentication: SSH Key
@@ -83,7 +86,7 @@ The EC2 public IPv4 address is not permanently documented in this repository bec
 
 Documentation
 The complete practical documentation is available in:
-[Module-2-Report.pdf](./Module-2-Report.pdf)
+[Module 2 Project Report.pdf](./Module 2 Project Report.pdf)
 
 The report contains the detailed steps, configurations, commands, screenshots, and practical evidence for the completed module.
 
